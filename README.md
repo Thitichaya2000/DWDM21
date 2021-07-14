@@ -3,7 +3,7 @@ Data Warehouse &amp; Data Mining 2021
 
 Thitichaya Kraiwong 623020520-0
 
-Group Name :
+Group Name : ลูกหมี
 
 1 **ฐิติชญา  ไกรวงค์      623020520-0**
 
