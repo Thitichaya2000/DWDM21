@@ -87,15 +87,33 @@ Group Name : ลูกหมี
 * บทที่ 4 [Data Warehousing and On-line Analytical Processing]
   * lecture 
     * (https://github.com/Thitichaya2000/DWDM21/blob/main/04OLAP.pdf) 
-      * Data Warehouse : Basic Concepts 
-      * Data Warehouse Modeling : Data Cube and OLAP  โมเดลของData Warehouse
-       ***************************************************************************** เพิ่มสไลด์
-      * Data Warehouse Design and Usage การออกแบบและการใช้งานคลังข้อมูล
-      * Data Warehouse Implementation การใช้งานคลังข้อมูล
-      * Summary 
+       * What is a Data Warehouse?
+       * From Tables and Spreadsheets to Data Cubes
+       * Conceptual Modeling of Data Warehouses
+         * Star Schema: An Example
+         * Snowflake Schema: An Example
+         * Fact Constellation: An Example
+       * Typical OLAP Operations
+         * Roll up (drill-up)
+         * Drill down (roll down)
+         * Slice and dice
+         * Pivot (rotate)
+         * Drill across
+         * Drill through
 * บทที่ 5 Association Rules
   * lecture
     * (https://github.com/Thitichaya2000/DWDM21/blob/main/06FPBasic.pdf)  
+      * Basic Concepts
+        * What Is Pattern Discovery?
+        * k-Itemsets and Their Supports
+        * Frequent Itemsets (Patterns)
+        * From Frequent Itemsets to Association Rules
+        * Mining Frequent Itemsets and Association Rules
+     * Efficient Pattern Mining Methods
+        * Apriori Algorithm
+        * Apriori Pruning and Scalable Mining Methods
+        * A Candidate Generation & Test Approach
+        * The Apriori Algorithm
   * Github 
     * (https://github.com/Thitichaya2000/DWDM21/blob/main/Chapter6_Association_Rules.ipynb)  
     * เตรียม Data สำหรับ (Fequence Pattern) Association Rule
@@ -103,9 +121,39 @@ Group Name : ลูกหมี
 * บทที่ 6 [Classification]
   * Lecture
     * (https://github.com/Thitichaya2000/DWDM21/blob/main/08ClassBasic.pdf)
+       * Basic Concepts
+         * Supervised vs. Unsupervised Learning (1)
+         * Supervised vs. Unsupervised Learning (2)
+         * Prediction Problems: Classification vs. Numeric Prediction
+         * Classification—Model Construction, Validation and Testing
+       * Decision Tree Induction
+         * An Example
+         * Information Gain
+       * Load Data
+       * Train Model
+         * import (เรียกใช้ algorithm algorithm ที่เราต้องการ)
+         * define (กำหนด parameters ให้กับ model)
+         * train (ฝึกสอนตัวแบบ)
+       * Plot tree
+       * Evalution
+         * Random
+       * Advanced Tree
+       * TEST
     * (https://github.com/Thitichaya2000/DWDM21/blob/main/Lecture141064.pdf) 
+       * Bayes’ Theorem: Basics
+          * Naïve Bayes
+          * ClassifierCategorical vs. Continuous Valued Features
+          * Training Dataset
+       * Lazy Learner: Instance-Based Methods
+       * The k-Nearest Neighbor Algorithm
     * (https://github.com/Thitichaya2000/DWDM21/blob/main/Lecture191064.pdf)
-    * *************************************************************************** เพิ่มสไลด์
+       * Model Evaluation and Selection
+       * Classifier Evaluation Metrics
+         * Confusion Matrix
+         * Accuracy, Error Rate,Sensitivity and Specificity
+         * Precision and Recall, and F-measures
+       * Neural Network for Classification
+         * Perceptron
   * Github
     * Decision Tree
       * (https://github.com/Thitichaya2000/DWDM21/blob/main/Chapter7_Classification(Decision_Tree).ipynb)
@@ -132,7 +180,7 @@ Group Name : ลูกหมี
       * evaluation
 * บทที่ 7 [Clustering]  
   * Lecture
-  *  ****************************************************************************** เพิ่มสไลด์
+    *  (https://github.com/Thitichaya2000/DWDM21/blob/main/10ClusBasic.pdf)
   * Github
     * (https://github.com/Thitichaya2000/DWDM21/blob/main/Chap_8_Clustering.ipynb) 
     * K-means
@@ -149,7 +197,7 @@ Group Name : ลูกหมี
   * (https://github.com/Thitichaya2000/DWDM21/blob/main/MiniExam.ipynb) 
 * Project
   * Powerpoint  
-  *  (https://github.com/Thitichaya2000/DWDM21/blob/main/Final%20Project%20%E0%B8%81%E0%B8%A5%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%AB%E0%B8%A1%E0%B8%B5.pdf)  
+  * (https://github.com/Thitichaya2000/DWDM21/blob/main/Final%20Project%20%E0%B8%81%E0%B8%A5%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%AB%E0%B8%A1%E0%B8%B5.pdf)  
   * Github
     * (https://github.com/Thitichaya2000/DWDM21/blob/main/Project_lookmhee.ipynb)
 
